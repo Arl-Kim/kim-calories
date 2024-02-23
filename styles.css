@@ -45,3 +45,20 @@ button, input, select {
 fieldset, label, button, input, select {
     margin-bottom: 10px;
 }
+
+
+  /*Main Styles*/
+
+.main-container {
+    width: 90%;
+    max-width: 680px;
+}
+
+.main-container {
+    margin: 20px auto;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
