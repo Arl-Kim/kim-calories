@@ -10,3 +10,38 @@
     --red-dark: #850000;
     --green-light: #acd157;
 }
+
+
+/*General Styles*/
+
+body{
+    background-color: var(--blue-alt);
+    color: var(--grey-light);
+    font-family: Gotham, Metropolis, Figtree, sans-serif;
+    font-size: 18px;
+}
+
+h1{
+    text-align: center;
+    margin: 20px auto;
+}
+
+label, legend {
+  font-weight: bold;
+}
+
+button {
+    cursor: pointer;
+    text-decoration: none;
+    background-color: var(--orange-light);
+    border: 2px solid var(--orange-dark);
+  }
+  
+  button, input, select {
+    min-height: 24px;
+    color: var(--blue-dark);
+  }
+  
+  fieldset, label, button, input, select {
+    margin-bottom: 10px;
+  }
