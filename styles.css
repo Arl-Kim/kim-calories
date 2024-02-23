@@ -27,7 +27,7 @@ h1{
 }
 
 label, legend {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 button {
@@ -35,13 +35,13 @@ button {
     text-decoration: none;
     background-color: var(--orange-light);
     border: 2px solid var(--orange-dark);
-  }
+}
   
-  button, input, select {
+button, input, select {
     min-height: 24px;
     color: var(--blue-dark);
-  }
+}
   
-  fieldset, label, button, input, select {
+fieldset, label, button, input, select {
     margin-bottom: 10px;
-  }
+}
