@@ -62,3 +62,13 @@ fieldset, label, button, input, select {
     display: flex;
     flex-direction: column;
 }
+
+.output {
+    border: 2px solid var(--grey-light);
+    padding: 10px;
+    text-align: center;
+}
+  
+.hide {
+    display: none;
+}
