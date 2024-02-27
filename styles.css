@@ -110,3 +110,17 @@ fieldset, label, button, input, select {
     color: var(--green-light);
     border-color: var(--green-light);
 }
+
+#submit_btn{
+    background-color: var(--blue-dark);
+    color: var(--orange-dark);
+    padding: 7px;
+    font-size: 20px;
+    border: 2px double var(--orange-dark);
+    border-radius: 7px;
+}
+
+#submit_btn:hover{
+    color: var(--green-light);
+    border-color: var(--green-light);
+}
