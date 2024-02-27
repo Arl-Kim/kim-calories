@@ -15,15 +15,22 @@
 /*General Styles*/
 
 body{
-    background-color: var(--blue-alt);
+    background-color: var(--blue-dark);
     color: var(--grey-light);
     font-family: Gotham, Metropolis, Figtree, sans-serif;
     font-size: 18px;
 }
 
 h1{
+    color: var(--green-light);
+    text-shadow: 0 0 5px var(--green-light);
     text-align: center;
     margin: 20px auto;
+}
+
+fieldset{
+    color: var(--orange-dark);
+    border-color: var(--orange-light);
 }
 
 label, legend {
