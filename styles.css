@@ -41,8 +41,6 @@ label, legend {
 button {
     cursor: pointer;
     text-decoration: none;
-    background-color: var(--orange-light);
-    border: 2px solid var(--orange-dark);
 }
   
 button, input, select {
@@ -82,7 +80,6 @@ fieldset, label, button, input, select {
 }
 
 #budget{
-    color: var(--blue-dark);
     background-color: var(--orange-light);
     padding: 10px;
     font-size: 24px;
