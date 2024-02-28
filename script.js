@@ -9,12 +9,7 @@ const resultOutput = document.getElementById("res_output");
 let isError = false;
 
 function cleanInputString(str) {
-    const strArray = str.split('');
-    const cleanStrArray = [];
-  
-    for (let i = 0; i < strArray.length; i++) {
-      if (!["+", "-", " "].includes(strArray[i])) {
-        cleanStrArray.push(strArray[i])
-      }
-    }
-  }
+    const regex = /[+-\s]/g; // Checks for +, - and white space in String. g is flag (global).
+    
+    return str.replace(regex, ""); //Replaces regex values with empty String in str and returns it.
+}
