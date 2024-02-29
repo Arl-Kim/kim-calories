@@ -27,4 +27,12 @@ function addEntry(){
     //const targetInputContainer = document.querySelector(`#${userEntryChoice.value} .input-container`);
 
     const entryNumber = targetInputContainer.querySelectorAll("input[type='text']").length;
+
+    //Dynamic HTML string
+    const HTMLString = `
+    <label for="${userEntryChoice.value}-${entryNumber}-name">Entry ${entryNumber} Name</label>
+    <input type="text" id="${userEntryChoice.value}-${entryNumber}-name" placeholder="Name">
+    <label for="${userEntryChoice.value}-${entryNumber}-calories">Entry ${entryNumber} Calories</label>
+    <input type="number" min="0" id="${userEntryChoice.value}-${entryNumber}-calories" placeholder="Calories">
+    `;
 }
