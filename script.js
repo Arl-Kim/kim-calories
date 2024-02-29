@@ -35,4 +35,6 @@ function addEntry(){
     <label for="${userEntryChoice.value}-${entryNumber}-calories">Entry ${entryNumber} Calories</label>
     <input type="number" min="0" id="${userEntryChoice.value}-${entryNumber}-calories" placeholder="Calories">
     `;
+
+    targetInputContainer.innerHTML = targetInputContainer.innerHTML + HTMLString;
 }
