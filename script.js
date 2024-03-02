@@ -32,7 +32,7 @@ function addEntry(){
     <input type="number" min="0" id="${userEntryChoice.value}-${entryNumber}-calories" placeholder="Calories">
     `;
 
-    targetInputContainer.innerHTML = targetInputContainer.innerHTML + HTMLString;
+    targetInputContainer.insertAdjacentHTML("beforeend", HTMLString); //insert HTMLString as the last child
 }
 
 addChoiceButton.addEventListener("click", addEntry);
