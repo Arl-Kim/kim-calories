@@ -22,7 +22,7 @@ function isInvalidInput(str){
 
 function addEntry(){
     const targetInputContainer = document.querySelector(`#${userEntryChoice.value} .input-container`); 
-    const entryNumber = targetInputContainer.querySelectorAll("input[type='text']").length;
+    const entryNumber = targetInputContainer.querySelectorAll("input[type='text']").length + 1;
 
     //Dynamic HTML string
     const HTMLString = `
