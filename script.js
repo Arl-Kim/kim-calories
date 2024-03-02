@@ -38,3 +38,5 @@ function addEntry(){
 
     targetInputContainer.innerHTML = targetInputContainer.innerHTML + HTMLString;
 }
+
+addChoiceButton.addEventListener("click", addEntry);
