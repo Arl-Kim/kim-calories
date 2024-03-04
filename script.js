@@ -47,7 +47,10 @@ function getCaloriesFromInputs(list){
             isError = true;
             return null;
         }
+
+        calories = calories + Number(currentValue);
     }
+    return calories;
 }
 
 addChoiceButton.addEventListener("click", addEntry);
