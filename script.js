@@ -44,6 +44,8 @@ function getCaloriesFromInputs(list){
 
         if(invalidInputMatch){ // If invalidInputMatch is truthsy (true when converted to Boolean)
             alert(`Your Input Is Invalid: ${invalidInputMatch[0]}`);
+            isError = true;
+            return null;
         }
     }
 }
