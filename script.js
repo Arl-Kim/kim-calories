@@ -35,4 +35,17 @@ function addEntry(){
     targetInputContainer.insertAdjacentHTML("beforeend", HTMLString); //insert HTMLString as the last child
 }
 
+function getCaloriesFromInputs(list){
+    let calories = 0;
+
+    for(const item of list){
+        const currentValue = cleanInputString(item.value);
+        const invalidInputMatch = isInvalidInput(currentValue);
+
+        if(invalidInputMatch){ // If invalidInputMatch is truthsy (true when converted to Boolean)
+            alert(`Your Input Is Invalid: ${invalidInputMatch[0]}`);
+        }
+    }
+}
+
 addChoiceButton.addEventListener("click", addEntry);
