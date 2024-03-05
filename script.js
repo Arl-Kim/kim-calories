@@ -58,7 +58,8 @@ function calculateCalories(e) {
     }
 
     const consumedCalories = breakfastCalories + lunchCalories + supperCalories + snacksCalories;
-  const remainingCalories = budgetCalories - consumedCalories + exerciseCalories;
+    const remainingCalories = budgetCalories - consumedCalories + exerciseCalories;
+    const surplusOrDeficit = (remainingCalories < 0) ? "Surplus" : "Deficit"; //Ternary Operator
 }
 
 function getCaloriesFromInputs(list){
