@@ -99,6 +99,7 @@ function clearForm() {
 
     userBudget.innerHTML = "";
     resultOutput.innerText = "";
+    resultOutput.classList.add("hide");
 }
 
 addChoiceButton.addEventListener("click", addEntry);
