@@ -138,3 +138,16 @@ fieldset, label, button, input, select {
     color: var(--red-dark);
     border-color: var(--red-dark);
 }
+
+.output span{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+  
+.surplus{
+    color: var(--pink-light);
+}
+  
+.deficit{
+    color: var(--green-light);
+}
